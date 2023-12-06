@@ -46,3 +46,13 @@ MATERIEL REQUIS
   - Moteurs à propulsion pour pouvoir tier les balles.
 
 
+DÉCOUPAGE DU PROJET
+
+  -  Rassemblage du materiel + creation et fonctionnnement du chassis du tank (avancer, reculer, tourner, gerer la vitesse, la taille, ...)
+  -  Tourelle creation + fontionnement (2 servomoteur empiller pour avoir une rotation selon x et z, gérer ωx et ωz, la limite des angle de rotation, la taille, ...)
+  -  telecomande
+  -  telecomande
+  -  telecomande
+  -  telecomande
+  -  assemblage de tt
+  -  pour retard
