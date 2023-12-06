@@ -44,3 +44,7 @@ DÉCOUPAGE DU PROJET
 DIAGRAMME DE GRANTT
 
   ![image](https://github.com/bogwee/ProjetArduino/assets/134391638/991a4729-1731-4748-9e89-312c01149f2c)
+
+REPARTITION DU TRAVAIL
+
+  - 
