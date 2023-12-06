@@ -1,20 +1,4 @@
-# ProjetArduino
-
-Table des matieres:
-
-I. Titre du projet : RC Tank
-II. Description du projet
-III. Comment installer et exécuter le projet
-IV. Comment utiliser le projet
-V. Les crédits
-VI. Licence
-
-II-Description du projet
-
-  Un tank télécommander capable de tirer tout en étant en mouvement, la direction du tir sera indiqué par un laser. La direction et la tourelle seront dirigés par une manette. Sur cette même manette il sera possible de déclancher le tir mais aussi d'allumer ou non le laser de direction.
-  La touurelle cotiendra le laser et une reserve de balle, elle devra être capable de tourner sur elle même et de gerer sa hauteur. Pour cela, nous aurons besoins de 4 moteurs, 
-
-_____________Autre Version
+#Projet Arduino
 
 OBJECTIF DU PROJET
 
@@ -48,11 +32,11 @@ MATERIEL REQUIS
 
 DÉCOUPAGE DU PROJET
 
-  -  Rassemblage du materiel + creation et fonctionnnement du chassis du tank (avancer, reculer, tourner, gerer la vitesse, la taille, ...)
-  -  Tourelle creation + fontionnement (2 servomoteur empiller pour avoir une rotation selon x et z, gérer ωx et ωz, la limite des angle de rotation, la taille, ...)
+  -  Rassemblage du materiel + montage du chassis du tank et mise en fonctionnement (avancer, reculer, tourner, gerer la vitesse, ...)
+  -  Montage de la Tourelle et mise en fontionnement (2 servomoteur empiler pour avoir une rotation selon x et z, gérer ωx et ωz, la limite des angle de rotation, la taille, ...)
   -  telecomande
   -  telecomande
   -  telecomande
   -  telecomande
-  -  assemblage de tt
+  -  assemblage 
   -  pour retard
