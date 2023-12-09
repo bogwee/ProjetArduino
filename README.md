@@ -32,19 +32,17 @@ MATERIEL REQUIS
 
 DÉCOUPAGE DU PROJET
 
-  -  Rassemblage du materiel + montage du chassis du tank et mise en fonctionnement (avancer, reculer, tourner, gerer la vitesse, ...)
-  -  Montage de la Tourelle et mise en fontionnement (2 servomoteur empiler pour avoir une rotation selon x et z, gérer ωx et ωz, la limite des angle de rotation, la taille, ...)
-  -  telecomande
-  -  telecomande
-  -  telecomande
-  -  telecomande
-  -  assemblage 
-  -  pour retard
+  -  Rassemblage du materiel + montage du chassis du tank et mise en fonctionnement (avancer, reculer, tourner, gerer la vitesse, ...) : 1 Séance
+  -  Montage de la Tourelle et mise en fontionnement (2 servomoteur empiler pour avoir une rotation selon x et z, gérer ωx et ωz, la limite des angle de rotation, la taille, ...) : 1-2 Séances
+  -  Télécomande : 3-4 Séances
+  -  Assemblage : 1-2 Séances
+  -  Retard
 
 DIAGRAMME DE GRANTT
 
-  ![image](https://github.com/bogwee/ProjetArduino/assets/134391638/991a4729-1731-4748-9e89-312c01149f2c)
+  ![image](https://github.com/bogwee/ProjetArduino/assets/134391638/ff2000ef-532b-4aa8-9afe-e10d22643be4)
 
 REPARTITION DU TRAVAIL
 
-  - 
+  ![image](https://github.com/bogwee/ProjetArduino/assets/134391638/3009f398-f3f0-48eb-98bc-62e3c53456d6)
+
