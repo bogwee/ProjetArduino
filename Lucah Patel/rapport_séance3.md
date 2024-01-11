@@ -7,6 +7,7 @@ Effectuer :
 
     
     Tube projectile :
+    
     ![image](https://github.com/bogwee/ProjetArduino/assets/134391638/dfa62312-0fb6-4e6e-94cc-7cefd9eeeb79)
 Prise de mesure de diamètre des balle qui vont être utilisé comme projectile.
 Prise de mesure du tank.
@@ -15,6 +16,7 @@ Comparaisons des valeurs pour rendre un tube projectile qui a une taille proport
 
 
     Support du tube :
+    
     ![image](https://github.com/bogwee/ProjetArduino/assets/134391638/3c8841c2-4ac1-4f68-8e2c-e21f397dbad3)
 Soudage de moteur pour le tube projectile.
 Mise en place des moteur et d'un disque qui permettra de propulser la balle à travers le tube.
