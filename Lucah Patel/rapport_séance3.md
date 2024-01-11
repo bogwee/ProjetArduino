@@ -5,7 +5,8 @@ Avancement :
 Effectuer :
   - Modélisation de 2 pièces sur Onshape pour la tourelle,
 
-    
+
+
     Tube projectile :
     
     ![image](https://github.com/bogwee/ProjetArduino/assets/134391638/dfa62312-0fb6-4e6e-94cc-7cefd9eeeb79)
@@ -13,6 +14,8 @@ Prise de mesure de diamètre des balle qui vont être utilisé comme projectile.
 Prise de mesure du tank.
 Prises de mesure d'un tube projectile d'un anvian projet arduino.
 Comparaisons des valeurs pour rendre un tube projectile qui a une taille proportionnelle au tank et assez large pour que le projectile passe à travers avec un minimum de frottement possible sur les parois.
+
+
 
 
     Support du tube :
