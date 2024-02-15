@@ -5,7 +5,7 @@ Avancement :
   - Les servomoteurs marchent.
 
 
-Tache Effectuer :
+Tache effectuée :
   - BT Contrôleur est maintenant fini :
     
     ![Screenshot_20240215_195638_Bluetooth Electronics](https://github.com/bogwee/ProjetArduino/assets/134391638/d83bc71b-fba8-4653-848a-34ffa830be2b)
@@ -22,7 +22,7 @@ Tache Effectuer :
   - Code complet avec servomoteur et moteur du tube
 
 
-Problem Renconter :
+Problèmes rencontrés :
   - PWM : vu qu'il n'y a que 2 pwm sur la carte arduino qui sont séparer sur les 8 pattes existantes, ainsi que le servomoteur ont besoin d'un pwm quand on utilise servo.write(...)
     les servomoteurs vont donc capturer le pwm d'une des pattes qui dans notre cas est utiliser pour les moteurs 12 V, il y a donc une interférence de la fréquence émise sur le servomoteur
     donc quand les moteurs 12 V bouge le servomoteur va aussi bouger de la même manière.
