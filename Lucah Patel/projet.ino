@@ -1,18 +1,24 @@
 #include<SoftwareSerial.h>
+#include<Servo.h>
 
-#define TX 11
-#define RX 10
+#define TX 1
+#define RX 0
+
 SoftwareSerial BC(RX, TX);
-int PWM;
-char DATA;
-// Moteur A
-#define IN1 3  //IN1 fait avancer
-#define IN2 5  //IN2 fait reculer
-// Moteur B
-#define IN3 6  //IN3 fait avancer
-#define IN4 9  //IN4 fait reculer
 
-//Les moteurs sont asymetriques dons pour avancer le module il faut que le moteur A avance et le moteur B recule
+Servo servo1;
+Servo servo2;
+
+int PWM;
+int ANG;
+char DATA;
+
+// Moteur A
+#define IN1 11
+#define IN2 10
+// Moteur B
+#define IN3 5
+#define IN4 3
 
 void setup() {
   Serial.begin(9600);
@@ -20,24 +26,23 @@ void setup() {
   pinMode(IN2, OUTPUT);
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
+  servo1.attach(2);
+  servo2.attach(4);
   BC.begin(9600);
 }
 
-// valeur du moteur compris entre 0 (tourne lentement) et 255(tourne rapidement)
-  
 void loop() {
   if (BC.available()) {
     DATA = BC.read();
     if (DATA == 'F') {
       PWM = BC.parseInt();
-      Serial.println(PWM);
       analogWrite(IN1, PWM);
       analogWrite(IN2, 0);
       analogWrite(IN3, 0);
       analogWrite(IN4, PWM);
     }
     if (DATA == 'R') {
-      analogWrite(IN1, 240);
+      analogWrite(IN1, 200);
       analogWrite(IN2, 0);
       analogWrite(IN3, 0);
       analogWrite(IN4, 0);
@@ -46,7 +51,7 @@ void loop() {
       analogWrite(IN1, 0);
       analogWrite(IN2, 0);
       analogWrite(IN3, 0);
-      analogWrite(IN4, 240);
+      analogWrite(IN4, 200);
     }
     if (DATA == 'S') {
       analogWrite(IN1, 0);
@@ -54,6 +59,31 @@ void loop() {
       analogWrite(IN3, 0);
       analogWrite(IN4, 0);
     }
+    if (DATA == 'D') {
+      analogWrite(IN1, 0);
+      analogWrite(IN2, 200);
+      analogWrite(IN3, 0);
+      analogWrite(IN4, 0);
+    }
+    if (DATA == 'G') {
+      analogWrite(IN1, 0);
+      analogWrite(IN2, 0);
+      analogWrite(IN3, 200);
+      analogWrite(IN4, 0);
+    }
+    if (DATA == 'B') {
+      analogWrite(IN1, 0);
+      analogWrite(IN2, 255);
+      analogWrite(IN3, 255);
+      analogWrite(IN4, 0);
+    }
+    if (DATA == 'Z') {
+      ANG = BC.parseInt();
+      servo1.write(ANG);
+    }
+    if (DATA == 'X') {
+      ANG = BC.parseInt();
+      servo2.write(ANG);
+    }
   }
 }
-
