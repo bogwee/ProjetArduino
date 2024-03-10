@@ -2,7 +2,7 @@
 
 OBJECTIF DU PROJET
 
-  Le projet vise à concevoir et mettre en œuvre un tank contrôlé à distance à l'aide d'une plateforme Arduino. Le tank doit être capable de se déplacer dans différentes directions, de faire tourner sa tourelle sur elle-même, de gérer la hauteur de la tourelle, de viser à l'aide d'un laser, et de tirer des balles en mousse, le tout contrôlable via une manette sans fil.
+  Le projet vise à concevoir et mettre en œuvre un tank contrôlé à distance à l'aide d'une plateforme Arduino. Le tank doit être capable de se déplacer dans différentes directions, de faire tourner sa tourelle sur elle-même, de gérer la hauteur de la tourelle et de tirer des balles en mousse, le tout contrôlable via le teléphone (bleutooth).
 
 FONCTIONNALITES PRINCIPALES 
 
